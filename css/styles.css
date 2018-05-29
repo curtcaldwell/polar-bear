@@ -10,3 +10,30 @@
 .clickable:hover {
   text-decoration: underline;
 }
+.green-background {
+  background-color: green;
+  border: 2px solid black;
+  margin: 5px;
+  padding: 10px;
+  font-style: italic;
+  font-family: fantasy;
+}
+body{
+  font-family: skia;
+  text-align: center;
+}
+.yellow-background{
+  background-color: yellow;
+  border: 2px solid black;
+  margin: 5px;
+  padding: 10px;
+  font-style: oblique;
+  font-family:sans-serif;
+}
+.red-background{
+  background-color: red;
+  border: 2px solid black;
+  margin: 5px;
+  padding: 10px;
+
+}
