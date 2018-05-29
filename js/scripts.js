@@ -5,17 +5,16 @@ $(document).ready(function() {
     $("#bear-hidden").toggle();
   });
   $("button#green").click(function() {
-    $("body").removeClass();
-    $("body").addClass("green-background");
+
+    $("body").toggleClass("green-background");
 
     });
     $("button#yellow").click(function() {
-  $("body").removeClass();
-  $("body").addClass("yellow-background");
+
+  $("body").toggleClass("yellow-background");
 });
 $("button#red").click(function() {
-  $("body").removeClass();
-  $("body").addClass("red-background");
+
+  $("body").toggleClass("red-background");
 });
 });
-  
